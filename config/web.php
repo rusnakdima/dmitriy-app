@@ -1,6 +1,6 @@
 <?php
 
-//$params = require __DIR__ . '/params.php';
+$params = require __DIR__ . '/params.php';
 $db = require __DIR__ . '/db.php';
 
 $config = [
@@ -52,7 +52,7 @@ $config = [
         ],
         */
     ],
-    //'params' => $params,
+    'params' => $params,
 ];
 
 if (YII_ENV_DEV) {
